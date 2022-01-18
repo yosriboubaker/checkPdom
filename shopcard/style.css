@@ -1,0 +1,33 @@
+ body{
+     width:100%;
+     margin: auto;
+ }
+
+.shop-items{
+    width:80%;
+    margin: auto;
+   display: grid;
+   grid-template-columns: auto auto auto;
+}
+.shop-item-image{
+    width: 250px;
+    height: 250px;
+}
+
+/* .shop-item{
+    text-align: center;
+} */
+.inc{
+    display: flex;
+    flex-direction: row;
+    
+}
+.fa {
+    font-size: 50px;
+    cursor: pointer;
+    user-select: none;
+  }
+  
+  .fa:hover {
+    color: red;
+  }
